@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<targetServiceConfiguration>
+    <id>DefaultTarget</id>
+    <httpAuthConfiguration>
+        <port>80</port>
+        <type>NONE</type>
+    </httpAuthConfiguration>
+    <miscellaneousConfiguration>
+        <connectTimeout>120000</connectTimeout>
+        <noOfRetries>0</noOfRetries>
+        <requestTimeout>120000</requestTimeout>
+    </miscellaneousConfiguration>
+    <proxyConfiguration>
+        <useProxyServer>false</useProxyServer>
+        <useSocksProxy>false</useSocksProxy>
+    </proxyConfiguration>
+    <sslConfiguration>
+        <acceptServerCertificate>false</acceptServerCertificate>
+        <ignoreHostnameMismatch>false</ignoreHostnameMismatch>
+        <keyManagerFactoryType>SunX509</keyManagerFactoryType>
+        <keyStoreType>JKS</keyStoreType>
+        <protocolHandlerPackages>com.sun.net.ssl.internal.www.protocol</protocolHandlerPackages>
+        <securityProtocol>TLS</securityProtocol>
+        <securityProviderClass>com.sun.net.ssl.internal.ssl.Provider</securityProviderClass>
+        <trustManagerFactoryType>SunX509</trustManagerFactoryType>
+        <trustStoreType>JKS</trustStoreType>
+        <useSSL>false</useSSL>
+    </sslConfiguration>
+    <targetMethod>GET</targetMethod>
+    <targetURI>http://rest1</targetURI>
+</targetServiceConfiguration>

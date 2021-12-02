@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResourceConfiguration>
+    <Policies/>
+    <allowChildPaths>false</allowChildPaths>
+    <dummyPolicyConfigurationsForJson>
+        <entry>
+            <key>PROXY_REQUEST</key>
+            <value/>
+        </entry>
+    </dummyPolicyConfigurationsForJson>
+    <endpoints>
+        <entry>
+            <key>DefaultTarget</key>
+            <value>1</value>
+        </entry>
+    </endpoints>
+    <forwardBasePath>false</forwardBasePath>
+    <loadBalancingStrategy>ROUND_ROBIN</loadBalancingStrategy>
+    <resourceID>DefaultResource</resourceID>
+    <streamingScope>NONE</streamingScope>
+    <targetRules>
+        <Entry>
+            <Key>NoRule</Key>
+            <Value>DefaultTarget</Value>
+        </Entry>
+    </targetRules>
+    <wafEnabled>false</wafEnabled>
+    <wafFilterClassName>org.owasp.esapi.waf.ESAPIWebApplicationFirewallFilter</wafFilterClassName>
+    <wafFilterConfig/>
+</ResourceConfiguration>
